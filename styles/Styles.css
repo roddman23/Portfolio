@@ -14,7 +14,7 @@
    }
 .page-container {
     background-color: #333; 
-    background-image: url('/img/noise.png'); 
+    background-image: url('./img/noise.png'); 
     background-repeat: repeat; 
     color: #fff; 
     padding: 20px; 
@@ -113,7 +113,7 @@
   }
 #proyectos {
     background-color: #333; 
-    background-image: url('/img/noise.png'); 
+    background-image: url('./img/noise.png'); 
     background-repeat: repeat; 
     padding: 50px;
     text-align: center;
@@ -196,7 +196,7 @@
 }
 #contacto {
     background-color: #333;
-    background-image: url('/img/noise.png');
+    background-image: url('./img/noise.png');
     background-repeat: repeat;
     padding: 50px;
     text-align: center;
@@ -230,7 +230,7 @@
 
 .footer-content {
     background-color: #333;
-    background-image: url('/img/noise.png');
+    background-image: url('./img/noise.png');
     display: flex;
     justify-content: space-between;
     align-items: center;
