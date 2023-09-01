@@ -12,12 +12,13 @@
     color: #0899d0;
     border-color:#0899d0; 
    }
-.page-container {
-    background-color: #333; 
-    background-image: url('../img/noise.png'); 
-    background-repeat: repeat; 
-    color: #fff; 
-    padding: 20px; 
+#inicio {
+    background-color: #333;
+    background-image: url('../img/noise.png');
+    background-repeat: repeat;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
 }
 
 .intro-container {
@@ -39,11 +40,12 @@
 
 .intro-text {
     flex: 1;
-    padding: 20px;
+    padding: 20px 20px 20px 10px;
     background-color: #928b8b;
     border-radius: 10px;
     -webkit-animation: shake-br 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
     animation: shake-br 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.1s both;
+    margin-left:-150px;
 }
 
 .intro-text h1 {
@@ -56,6 +58,7 @@
     font-size: 18px;
     line-height: 1.5;
     color: #ccc;
+    
 }
 
 @media (max-width: 768px) {
