@@ -231,6 +231,50 @@
     border-radius: 4px;
     text-decoration: none;
 }
+
+#certificados {
+    background-color: #333; 
+    background-image: url('../img/noise.png'); 
+    background-repeat: repeat; 
+    padding: 50px;
+    text-align: center;
+}
+
+.certificado {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    overflow: hidden;
+}
+.certificados h2{
+    text-align: center;
+}
+
+.certificado img {
+    width: 98%;
+    height: auto; 
+    border-radius: 8px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.certificado h3 {
+    margin-top: 10px;
+    color: #333;
+}
+.certificado a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
 #experiencias {
     padding: 50px;
     text-align: center;
