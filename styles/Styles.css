@@ -273,6 +273,48 @@
         transform: translateX(5px);
     }
 }
+.fourSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.fourSection h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.fourSection-imgConteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.fourSection-img{
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    
+}
+
+.fourSection-img img{
+    width: 35px;
+    height: 35px;
+
+   
+}
 #contacto {
     background-color: #333;
     background-image: url('../img/noise.png');
